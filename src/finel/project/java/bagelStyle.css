@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2019, 10:40:25 PM
+    Author     : Vishwa
+*/
+.bgImg
+{
+    -fx-background-image: url('bagelBg.jpg');
+    -fx-background-size:  cover;
+}
+.Lable
+{
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    /*-fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0,0,0,1);*/
+}
+.welcome-text
+{
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-text-fill: #ffc700
+    /*-fx-fill: #ffc700;*/
+    /*-fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 6,0.0, 0, 2);*/
+}
+

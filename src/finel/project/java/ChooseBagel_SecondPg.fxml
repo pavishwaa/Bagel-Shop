@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="634.0" styleClass="bgImg" stylesheets="@bagelStyle.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finel.project.java.ChooseTopping_Controller">
+   <children>
+      <Label layoutX="229.0" layoutY="12.0" styleClass="Lable" stylesheets="@bagelStyle.css" text="Pick Your Topping">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="chk_cheese" layoutX="176.0" layoutY="95.0" mnemonicParsing="false" styleClass="welcome-text" stylesheets="@bagelStyle.css" text="Cream cheese ($0.50)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="chk_butter" layoutX="176.0" layoutY="123.0" mnemonicParsing="false" styleClass="welcome-text" stylesheets="@bagelStyle.css" text="Butter ($0.25)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="chk_blueberry" layoutX="176.0" layoutY="152.0" mnemonicParsing="false" styleClass="welcome-text" stylesheets="@bagelStyle.css" text="Blueberry jam ($0.75)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="chk_raspberry" layoutX="176.0" layoutY="181.0" mnemonicParsing="false" styleClass="welcome-text" text="Raspberry jam ($0.75)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="chk_peach" layoutX="176.0" layoutY="210.0" mnemonicParsing="false" styleClass="welcome-text" text="Peach jelly ($0.75)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="btn_calculate" layoutX="218.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonClick" text="Calculate Total">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_cancel" layoutX="351.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonClick" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="155.0" layoutY="56.0" styleClass="welcome-text" stylesheets="@bagelStyle.css" text="Enter begal number :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_begal" layoutX="305.0" layoutY="54.0" prefHeight="25.0" prefWidth="61.0" />
+      <Button fx:id="btn_add" layoutX="153.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonClick" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_price" layoutX="105.0" layoutY="325.0" textFill="WHITE" />
+      <Label fx:id="label_option" layoutX="100.0" layoutY="367.0" textFill="WHITE" />
+      <Label fx:id="label_add" layoutX="103.0" layoutY="342.0" textFill="WHITE" />
+      <MenuBar layoutX="-1.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem fx:id="m_add" mnemonicParsing="false" onAction="#menuEvents" text="Add" />
+                  <MenuItem fx:id="m_cal" mnemonicParsing="false" onAction="#menuEvents" text="Calculate Total" />
+                  <MenuItem fx:id="m_cancel" mnemonicParsing="false" onAction="#menuEvents" text="Cancel" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

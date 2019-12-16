@@ -1,0 +1,9 @@
+************Sheridan Bagel House*******************
+Date : Fri Apr 12 08:05:25 EDT 2019
+Items             Qty            Amount 
+Whole Wheat ( $1.50 )	3		0.0
+Cafe Au Lait ($1.75)   3   3.5
+*******************************
+Sub Total : 3.5
+Tax 13% : 0.455
+Total : 3.955
